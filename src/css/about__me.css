@@ -1,0 +1,46 @@
+.about__me{
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 500px;
+   background: #fff;
+   box-shadow: 2px 2px 2px 2px #000;
+   display: grid;
+   grid-template-columns: 600px 1fr;
+   align-items: center;
+   justify-content: center;
+
+}
+.about__me img{
+    border-radius: 30px;
+    width: 100%;
+    padding: 20px;
+    height: 500px;
+}
+.about__copy{
+   margin: 0 auto   ;
+    width: 400px;
+}
+
+.about__copy h2{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 10px 0 10px 0;  
+}
+.about__copy h2{
+    padding: 10px 0 10px 0;
+    font-weight: 300;
+}
+.about__me h1{
+    width: 200px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+}
+.information i{
+    padding: 10px 0 10px 0;
+}

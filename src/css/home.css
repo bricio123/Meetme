@@ -1,0 +1,76 @@
+header{
+    background: -moz-linear-gradient(#0000ff 100%, #00ff00 100%); 
+    background: -webkit-gradient(linear, left top, right top, color-stop(1%,#4B0082),  color-stop(50%,#9400D3)); 
+    height: 80vh;
+   
+ 
+}
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    max-width: 1100px;
+    padding: 30px 0 60px 0;
+    margin: 0 auto;
+   
+    
+
+
+}
+.header i{
+    color: #fff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.logo__meetme{
+    color: #fff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.logo{
+    color: #000;
+}
+.nav__links{
+
+    display: flex;
+    list-style: none;
+}
+.nav__links a.active{
+    color: #000;
+    font-weight: 600;
+
+}
+.nav__links a.active:hover{
+    border-bottom: unset;
+}
+.nav__links li a{
+    text-transform: uppercase;
+    padding: 10px;
+    text-decoration: unset;
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 500;
+    
+}
+.nav__links li a:hover{
+    transition: 0.5s;
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+@media screen and (max-width:613px){
+    .header{
+      
+        display: block;
+       text-align: center;
+    }
+    .nav__links{
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
