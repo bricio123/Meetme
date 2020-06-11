@@ -1,4 +1,4 @@
-header{
+.header__container{
     background: -moz-linear-gradient(#0000ff 100%, #00ff00 100%); 
     background: -webkit-gradient(linear, left top, right top, color-stop(1%,#4B0082),  color-stop(50%,#9400D3)); 
     height: 80vh;
@@ -41,11 +41,10 @@ header{
 .nav__links a.active{
     color: #000;
     font-weight: 600;
+    border-bottom: 1px solid #000;
 
 }
-.nav__links a.active:hover{
-    border-bottom: unset;
-}
+
 .nav__links li a{
     text-transform: uppercase;
     padding: 10px;

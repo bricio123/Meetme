@@ -3,7 +3,7 @@
     margin: 0 auto;
     height: 500px;
    background: #fff;
-   box-shadow: 2px 2px 2px 2px #000;
+   box-shadow: 1px 1px 10px 1px #000;
    display: grid;
    grid-template-columns: 600px 1fr;
    align-items: center;
@@ -13,8 +13,9 @@
 .about__me img{
     border-radius: 30px;
     width: 100%;
-    padding: 20px;
-    height: 500px;
+    margin: 20px;
+    height: 450px;
+    
 }
 .about__copy{
    margin: 0 auto   ;
@@ -22,25 +23,71 @@
 }
 
 .about__copy h2{
-    font-size: 1rem;
+    font-size: .7rem;
     text-transform: uppercase;
     font-weight: 300;
-    padding: 10px 0 10px 0;  
+    margin: 10px 0 10px 0; 
 }
 .about__copy h2{
-    padding: 10px 0 10px 0;
+    font-size: .7rem;
+    margin: 10px 0 10px 0;
     font-weight: 300;
 }
 .about__me h1{
     width: 200px;
-    font-size: 2.5rem;
-    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+
     font-family: 'Roboto', sans-serif;
+}
+.about__copy p{
+    margin: 10px 0 20px 0;
+    color: #808080;
+    font-size: .8rem;
 }
 .information{
     display: flex;
     flex-direction: column;
 }
 .information i{
-    padding: 10px 0 10px 0;
+    margin: 10px 0 10px 0;
+    color: #808080;
+    font-size: .7rem;
+    
+}
+.information span{
+    font-size: .8rem;
+    font-weight: 100;
+}
+.share{
+    width: 450px;
+    display: flex;
+ 
+}
+.share i{
+    padding: 15px;
+    background: #D3D3D3;
+    border-radius: 5px;
+    margin: 10px 0 0 10px;
+    
+}
+.share i:hover{
+    background: #808080;
+    color: #fff;
+}
+.learn__more {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+
+}
+.learn__more  i{
+    background: #fff;
+    color: #000;
+  
+}
+.learn__more i:hover{
+    background: #fff;
+    color: #000;
+    
 }
