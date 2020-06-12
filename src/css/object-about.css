@@ -53,7 +53,8 @@
     list-style: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
+    align-items: center;
+    justify-content: center;
 }
 .title{
  
@@ -61,12 +62,22 @@
 }
 .title strong{
    font-size: 18px;
+
 }
 .title p{
     margin-top: 10px;
     margin-left: 30px;
+    font-weight: 300;
+    opacity:.7;
 }
 .icons ul li{
     font-size: 3rem;
-    padding: 30px;
+    padding: 20px;
+}
+.icons ul li:hover{
+   box-shadow: 2px 5px 10px #000;
+    transition: 1s;
+    border-radius: 5px;
+    color: #fff;
+    background: #000;
 }

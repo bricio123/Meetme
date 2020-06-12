@@ -1,0 +1,21 @@
+.object__copy h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.object__copy h4{
+    margin: 10px 0 20px 0;
+}
+.object__copy hr{
+    border: 2px solid #000;
+    width: 50px;
+    margin: 10px 0 20px 0;
+}
+.object__copy p{
+    font-weight: 300;
+    margin: 10px 0 20px 0;
+}
+.object__copy a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
