@@ -1,0 +1,2 @@
+
+$('.your-slider').slick('unslick');
