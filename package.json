@@ -6,11 +6,17 @@
   "dependencies": {
     "live-server": "^1.2.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "git-scripts": "^0.4.3",
+    "surge": "^0.21.3"
+  },
+  "git":{
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx live-server  src/ --port=5000"
-  },
+    "start": "npx live-server  src/ --port=5000",
+    "pre-push": "surge --project ./ --domain http://my-project-meetme.surge.sh/"
+  }
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bricio123/Meetme.git"

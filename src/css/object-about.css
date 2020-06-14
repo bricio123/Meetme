@@ -27,7 +27,6 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-  
     width: 50px;
     height: 300px;
 }
@@ -40,7 +39,8 @@
 .itens hr{
     border: 1px solid #000;
     width: 50px;
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     transform: rotate(90deg); /* Equal to rotateZ(45deg) */
 }
 .itens strong{

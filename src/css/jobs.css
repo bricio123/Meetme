@@ -1,0 +1,8 @@
+.last__jobs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.jobs{
+    width: 800px;
+    text-align: center;
+}

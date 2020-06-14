@@ -14,7 +14,8 @@
     font-weight: 300;
     margin: 10px 0 20px 0;
 }
-.object__copy a{
+.object__copy a{  
+    text-shadow: 1px 5px 5px #000;
     text-decoration: none;
     color: #000;
     font-weight: 500;
