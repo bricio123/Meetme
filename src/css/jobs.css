@@ -4,9 +4,6 @@
 }
 .jobs{
 
- 
-    background-color: yellow;
-  
     width: 60vw;
 }
 .slider__all{
@@ -23,18 +20,37 @@
     background: black;
 }
 #slick-slide-control00:hover{
- 
+    padding-bottom: 10px;
     box-shadow: 2px 2px 10px #000;
     border-radius:100% ;
     background: #fff;
+    transition: .5s;
 }
 #slick-slide-control01{
     padding: 2px;
     border-radius:100% ;
     background: black;
 }
+#slick-slide-control01:hover{
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 10px #000;
+    border-radius:100% ;
+    background: #fff;
+    transition: .5s;
+}
 #slick-slide-control02{
     padding: 2px;
     border-radius:100% ;
     background: black; 
+}
+#slick-slide-control02:hover{
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 10px #000;
+    border-radius:100% ;
+    background: #fff;
+    transition: .5s;
+}
+.slick-arrow{
+    color: #000;
+    background: #000;
 }
