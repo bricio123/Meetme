@@ -55,6 +55,17 @@
     border-radius:100% ;
     transition: .5s;
 }
+#slick-slide-control03{
+    padding: 2px;
+    border-radius:100% ;
+    background: black; 
+}
+#slick-slide-control03:hover{
+    padding-top: 10px;
+    box-shadow: 2px 2px 10px #000;
+    border-radius:100% ;
+    transition: .5s;
+}
 .slider__options{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -74,6 +85,14 @@
 }
 .slider__options__copy__one div i{
     padding: 10px 0 0   0;
+}
+.slider__options__copy__two h4{
+    padding: 10px;
+    font-size: 1rem;
+}
+.slider__options__copy__two p{
+    font-size: .8rem;
+    font-weight: 400;
 }
 .icon__job{
     font-size: 2rem;
