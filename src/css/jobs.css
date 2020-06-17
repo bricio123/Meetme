@@ -3,6 +3,16 @@
     grid-template-columns: repeat(2, 1fr);
 }
 .jobs{
-    width: 800px;
+    display: flex;
+    
+    width: 900px;
+    background-color: yellow;
+   height: 300px;
+    justify-content: center;
+}
+.jobs__one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
