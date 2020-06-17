@@ -1,7 +1,7 @@
 $('.jobs').slick({
   dots: true,
   infinite: true,
-  speed: 300,
+  speed: 100,
   slidesToShow: 1,
-  adaptiveHeight: true
+  
 });
