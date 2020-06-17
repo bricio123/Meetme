@@ -64,6 +64,18 @@
     color: #000;
     background: #000;
 }
+.slider__options__copy__one h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 0 0  10px 0;
+}
+.slider__options__copy__one strong{
+   
+}
+.slider__options__copy__one div i{
+    padding: 10px 0 0   0;
+}
 .icon__job{
     font-size: 2rem;
+
 }
