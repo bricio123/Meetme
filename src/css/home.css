@@ -11,12 +11,8 @@
     align-items: center; 
     justify-content: space-between;
     max-width: 1100px;
-    padding: 30px 0 60px 0;
+    padding: 30px 0 30px 0;
     margin: 0 auto;
-   
-    
-
-
 }
 .header i{
     color: #fff;
